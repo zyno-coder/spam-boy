@@ -1,0 +1,17 @@
+name: spam-bot
+
+on: [push]
+
+jobs:if some spam in chat 5min no talk
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:5min no talk
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
