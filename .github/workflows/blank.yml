@@ -3,7 +3,7 @@ name: spam-bot
 on: [push]
 
 jobs:if some spam in chat 5min no talk
-  build:
+  build:none
 
     runs-on: ubuntu-latest
 
@@ -12,6 +12,6 @@ jobs:if some spam in chat 5min no talk
     - name: Run a one-line script
       run: echo Hello, world!
     - name: Run a multi-line script
-      run: |
+      run: |if some one spam 5min no talk
         echo Add other actions to build,
         echo test, and deploy your project.
