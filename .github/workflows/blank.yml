@@ -1,4 +1,4 @@
-name: spam-bot
+
 
 on: [push]
 
