@@ -1,0 +1,17 @@
+
+
+on: [push]
+
+jobs:if some spam in chat 5min no talk
+  build:none
+
+    runs-on: discord
+
+    steps:5min no talk
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo school
+    - name: Run a multi-line script
+      run: |if some one spam 5min no talk
+        echo Add other actions to build,
+        echo test, and deploy your project.
